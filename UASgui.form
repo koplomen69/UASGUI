@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UASgui.UASgui">
+  <grid id="27dc6" binding="tampilan_awal" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="42" y="20" width="891" height="523"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <enabled value="true"/>
+      <font name="Bahnschrift" size="18" style="0"/>
+      <foreground color="-1716548"/>
+      <maximumSize width="980" height="620"/>
+      <minimumSize width="700" height="238"/>
+      <preferredSize width="920" height="680"/>
+    </properties>
+    <border type="none" title="custom keyboard"/>
+    <children>
+      <tabbedpane id="32b9f" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="700" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5990764"/>
+          <foreground color="-1185831"/>
+          <tabPlacement value="4"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="80332" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="jenis keyboard"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-1"/>
+              <minimumSize width="300" height="110"/>
+              <preferredSize width="300" height="130"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="fd576" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="gambar2"/>
+                </properties>
+              </component>
+              <component id="c8a7d" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="10"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="High Profile"/>
+                    <item value="Low Profile"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="4ad51" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="next"/>
+                </properties>
+              </component>
+              <component id="e9c12" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="40" height="40"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value="gambar1"/>
+                </properties>
+              </component>
+              <component id="7c53a" class="javax.swing.JButton" binding="okButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ok"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="50f8" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="layout keyboard"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e8553" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="layout 100%"/>
+                </properties>
+              </component>
+              <component id="a478" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="layout 75%"/>
+                </properties>
+              </component>
+              <component id="bbd48" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="layout 65%"/>
+                </properties>
+              </component>
+              <component id="13b4d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="layout 100%"/>
+                    <item value="layout 75%"/>
+                    <item value="layout 65%"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="2c2dd" class="javax.swing.JButton" binding="nextButton1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="next"/>
+                </properties>
+              </component>
+              <component id="afec8" class="javax.swing.JButton" binding="previousButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="previous"/>
+                </properties>
+              </component>
+              <component id="4f8df" class="javax.swing.JButton" binding="okButton1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ok"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b860" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="jenis switch"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d1727" class="javax.swing.JButton" binding="nextButton2" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="next"/>
+                </properties>
+              </component>
+              <component id="fabe1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="98d6c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="ea4ca" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="fce83" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="gateron"/>
+                    <item value="cherry mx"/>
+                    <item value="oetemu"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="da6d3" class="javax.swing.JButton" binding="previousButton1" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="previous"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="86621" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="material casing"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9aa5d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="gambar2"/>
+                </properties>
+              </component>
+              <component id="f8a3f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="gambar3"/>
+                </properties>
+              </component>
+              <component id="6a64d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="gambar1"/>
+                </properties>
+              </component>
+              <component id="c7a91" class="javax.swing.JButton" binding="previousButton2" default-binding="true">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="previous"/>
+                </properties>
+              </component>
+              <component id="501ae" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <editable value="true"/>
+                  <model>
+                    <item value="plastic"/>
+                    <item value="metal"/>
+                    <item value="kayu"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="8216d" class="javax.swing.JButton" binding="nextButton3" default-binding="true">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="next"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <component id="969b8" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentX value="0.5"/>
+          <autoscrolls value="false"/>
+          <background color="-9213088"/>
+          <borderPainted value="false"/>
+          <font name="Bahnschrift" size="16" style="0"/>
+          <foreground color="-1185831"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <selected value="false"/>
+          <text value="reset"/>
+        </properties>
+      </component>
+      <component id="eeca8" class="javax.swing.JLabel" binding="itemYangDiPilihLabel" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-11845065"/>
+          <enabled value="true"/>
+          <font name="Bahnschrift" size="16" style="0"/>
+          <foreground color="-11845065"/>
+          <text value="Item Yang Di Pilih :"/>
+        </properties>
+      </component>
+      <component id="37e7c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9213088"/>
+          <font name="Bahnschrift" size="18" style="1"/>
+          <foreground color="-11845065"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="35e88" class="javax.swing.JTextArea" binding="itemshow">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9213088"/>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <foreground color="-1185831"/>
+        </properties>
+      </component>
+      <component id="caf83" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <foreground color="-11845065"/>
+          <text value="total :"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
